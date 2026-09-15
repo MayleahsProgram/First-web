@@ -1,0 +1,46 @@
+.patrick-hand-regular{
+    font-family: 'Patrick Hand', cursive;
+    font-weight:400;
+    font-style:normal;
+}
+
+.body{
+    overflow:scroll;
+    visibility: hidden;
+}
+.main-image{
+   opacity: 0.5;
+}
+
+.report1{
+    border: 1px solid blue;
+    margin-left: 50px;
+    margin-right:50px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+h5{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+a:link{
+    color:#fb4747;
+}
+a:visited{
+    color:#fb47f5;
+}   
+a:hover{
+    color:#8347fb;
+}
+
+.multi{
+   column-count: 2;
+    column-gap: 50px;
+    column-rule: 1px solid #7c7c7c01;
+}
