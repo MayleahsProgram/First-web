@@ -1,3 +1,13 @@
+:root{
+    --main-color: #c4d0b0;
+    --secondary-color: #9de627;
+    --tertiary-color: #2744e6;
+    --text-color: #fb4747;
+    --hover-color: #8347fb;
+}
+
+
+
 .patrick-hand-regular{
     font-family: 'Patrick Hand', cursive;
     font-weight:400;
@@ -7,6 +17,7 @@
 .body{
     overflow:scroll;
     visibility: hidden;
+    background-color: var(--main-color);
 }
 .main-image{
    opacity: 0.5;
@@ -62,3 +73,25 @@ ol.contact-info li:nth-child(2){
 color: #f36161;
 }
 
+.box{
+    background-color: #9de627;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding:10px;
+    transition: transform 0.5s ease;
+}
+
+.box:hover{
+    transform: scale(1.5);
+    transform: rotate(45deg);
+}
+
+.box2{
+    background-color: #2744e6;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding:10px;
+    transition: transform 0.5s ease;
+}
