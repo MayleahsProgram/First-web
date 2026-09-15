@@ -13,7 +13,11 @@
 }
 
 .report1{
-    border: 1px solid blue;
+    border: 5px underline solid blue;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
     margin-left: 50px;
     margin-right:50px;
     padding-left: 25px;
@@ -21,7 +25,7 @@
 }
 
 h5{
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     text-decoration: underline;
@@ -44,3 +48,17 @@ a:hover{
     column-gap: 20px;
     column-rule: 1px solid #7c7c7c01;
 }
+
+ol.contact-info li:hover{
+    background-color: #025602;
+
+}
+
+ol.contact-info li:first-child{
+    font-weight: bold;
+}
+
+ol.contact-info li:nth-child(2){
+color: #f36161;
+}
+
