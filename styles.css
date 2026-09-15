@@ -40,7 +40,7 @@ a:hover{
 }
 
 .multi{
-   column-count: 2;
-    column-gap: 50px;
+   column-count: 5;
+    column-gap: 20px;
     column-rule: 1px solid #7c7c7c01;
 }
